@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Coordinar servicios de alojamiento de acuerdo a procedimientos técnicos y técnicas de planeación',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos del aprendiz sobre la gestión operativa del área de habitaciones y zonas comunes, verificando su comprensión de la estructura organizacional, los procedimientos técnicos de limpieza y arreglo, la normativa aplicable, la planeación de actividades, el manejo de suministros y activos, así como los procesos de supervisión y mantenimiento, con el fin de fortalecer las competencias requeridas para la coordinación eficiente del servicio de alojamiento.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -684,9 +685,10 @@ export default {
             'Se recomienda revisar nuevamente el componente de que se debe hacer cuando se encuentra un objeto olvidado en una habitación.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

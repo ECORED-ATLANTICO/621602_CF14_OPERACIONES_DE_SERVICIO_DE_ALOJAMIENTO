@@ -62,8 +62,8 @@ figcaption
 .bg-acento-botones-a5
   background-color: $color-acento-botones-a5
 
-.bg-acento-contenido-a20
-  background-color: $color-acento-contenido-a20
+.bg-acento-contenido-a10
+  background-color: $color-acento-contenido-a10
 
 .bg-secundario-s1
   background-color: $color-secundario-s1
@@ -115,6 +115,10 @@ figcaption
 
   &--11
     background-image: url("../assets/curso/common/bg-acb-line.png")  
+    background-position: top right
+
+  &--12
+    background-image: url("../assets/curso/common/bg-cards-label.png")  
 
 .bg-title
   background-image: url("../assets/curso/common/bg-title.png")
@@ -183,7 +187,7 @@ figcaption
 
 .acordion
   &__activo
-    background-color: $color-acento-contenido-a5
+    background-color: $color-secundario-s5
   
   &__accion__btn--a
     background-color: $color-acento-botones
@@ -304,9 +308,11 @@ figcaption
     .crd_hover_txt--body   
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
-      background-color: #DBF5F9
+      background-color: $color-secundario-s5
       h4
         color: $color-sistema-texto
+      &.bg-acento-contenido-a5
+        background-color: $color-acento-contenido-a5
 
   .crd_hover_txt--body
     position: absolute
@@ -314,8 +320,10 @@ figcaption
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #DBF5F9
+    background-color: $color-secundario-s5
     text-align: center
+    &.bg-acento-contenido-a5
+      background-color: $color-acento-contenido-a5
 
   
   @media (min-width:1200px) and (max-width:1400px)  
