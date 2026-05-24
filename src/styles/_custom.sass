@@ -1,21 +1,3 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -30,17 +12,348 @@ figcaption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+  width: 400px !important
+  @media screen and (min-width: $bp-min-xl)
+    width: 440px !important
+    padding-bottom: 0px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
+  background-color: $color-terciario-t5 !important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
   @media screen and (max-width: $bp-max-xs)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+.banner-text
+  background: #FFFFFF
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -40px
+
+  @media (min-width: 992px)
+    margin-top: -40px
+
+  &--green
+    margin-top: -30px
+    background: $color-secundario-s10
+
+  &--blue
+    margin-top: -30px
+    background: $color-acento-contenido-a5
+
+.bg-acento-contenido-a5
+  background-color: $color-acento-contenido-a5
+  &.bloque-texto-e i
+    color: $color-acento-contenido
+
+.bg-secundario-s5
+  background-color: $color-secundario-s5
+
+.bg-secundario-s10
+  background-color: $color-secundario-s10
+
+.bg-terciario-t5
+  background-color: $color-terciario-t5
+
+.bg-acento-botones-a5
+  background-color: $color-acento-botones-a5
+
+.bg-acento-contenido-a20
+  background-color: $color-acento-contenido-a20
+
+.bg-secundario-s1
+  background-color: $color-secundario-s1
+
+.bg-fondo-slider
+  background-image: url("../assets/curso/common/bg-slider.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.bg-audio
+  background-image: url("../assets/curso/common/bg-audio.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.bg-img
+  background-image: url("../assets/curso/common/bg-2.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+  &--2
+    background-image: url("../assets/curso/common/bg-2-xl.png")
+
+  &--3
+    background-image: url("../assets/curso/common/bg-cards.png")
+
+  &--4
+    background-image: url("../assets/curso/common/bg-2-xs.png")
+
+  &--5
+    background-image: url("../assets/curso/common/bg-3.png")  
+
+  &--6
+    background-image: url("../assets/curso/common/bg-4-xs.png")  
+  
+  &--7
+    background-image: url("../assets/curso/common/bg-4.png")  
+
+  &--8
+    background-image: url("../assets/curso/common/bg-2-md.png")  
+
+  &--9
+    background-image: url("../assets/curso/common/bg-blue-logo-green.png")  
+
+  &--10
+    background-image: url("../assets/curso/common/bg-blue-logo-green-xs.png")  
+
+  &--11
+    background-image: url("../assets/curso/common/bg-acb-line.png")  
+
+.bg-title
+  background-image: url("../assets/curso/common/bg-title.png")
+  background-repeat: no-repeat
+  background-color: $color-acento-contenido-a5
+  background-size: cover
+  background-position: right top
+  width: fit-content
+  &--lg
+    background-image: url("../assets/curso/common/bg-title-lg.png")
+
+.w-55
+  max-width: 55px
+  margin: 0 auto
+.w-65
+  max-width: 65px
+  margin: 0 auto
+.w-75
+  max-width: 75px
+  margin: 0 auto  
+.w-85
+  max-width: 85px
+  margin: 0 auto
+.w-90
+  max-width: 90px
+  margin: 0 auto
+.w-95
+  max-width: 95px
+  margin: 0 auto
+.w-110
+  max-width: 110px
+  margin: 0 auto
+.w-120
+  max-width: 120px
+  margin: 0 auto
+.w-135
+  max-width: 135px
+  margin: 0 auto
+.w-155
+  max-width: 155px
+  margin: 0 auto  
+  
+.z-2
+  position: relative
+  z-index: 2
+
+.img-flotante
+  width: 150px
+  position: absolute
+  top: -75px
+  left: 0%
+  
+.fullwidth-bg
+  display: none
+  @media screen and (min-width: 769px)
+    display: block
+  position: relative
+  z-index: 0
+
+  &--1::after
+    @media screen and (min-width: 1280px)
+      top: -40px
+      left: -50px
+      position: absolute
+      content: url('../assets/curso/common/bg-1.png')
+
+.acordion
+  &__activo
+    background-color: $color-acento-contenido-a5
+  
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    color: white
+    i::before
+      font-weight: bold
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #CDD5F2
+  border: #CDD5F2
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+.slyder-a__bullets__item
+  margin: 0 3px
+  @media screen and (min-width: 430px )
+    margin: 0 5px
+  @media screen and (min-width: 1280px )
+    margin: 0 10px
+
+.cita-decorada
+
+  .cita-decorada__caja
+    background-size: 100% 100%
+    background-repeat: no-repeat
+
+    [class*="cita-decorada__imagen-flotante"]
+    width: 100%
+    height: auto
+
+    .cita-decorada__imagen-flotante-4
+      position: absolute
+      transform: translateY(-60px) translateX(-10px)
+      z-index: 3
+      max-width: 118px
+      margin: 0 auto
+      @media (max-width: $bp-max-lg)
+        transform: translateY(-65px) translateX(8px)
+      @media screen and (max-width: $bp-max-md)
+        transform: translateY(-0px) translateX(0px)
+        position: relative
+
+      &--bigger
+        transform: translateY(-60px) translateX(45px)
+        @media (max-width: $bp-max-lg)
+          transform: translateY(-65px) translateX(8px)
+        @media screen and (max-width: $bp-max-md)
+          transform: translateY(-0px) translateX(0px)
+          position: relative
+
+  .cita-decorada__texto
+    position: relative
+    margin: 0
+    line-height: 1.6
+    font-size: 1rem
+    font-family: system-ui, sans-serif
+
+.slyder-f
+  align-items: center
+  border-radius: 20px
+
+  .slyder-f__main
+    width: 70%
+
+    @media (min-width: 769px)
+      width: 80%
+
+  .slyder-f__btn
+    height: 35px
+    width: 35px
+    max-width: 35px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    padding: 0 !important
+    margin: 0 auto
+    color: $white
+    .fa-chevron-left
+      font-size: 20px
+    .fa-chevron-right
+      font-size: 20px
+
+.accesibilidad
+  z-index: 3
+
+//////////CUSTOM TARJETA AVATAR TOP////////////
+.tarjeta-avatar
+  padding-top: 50px
+.tarjeta-avatar .tarjeta
+  padding-top: 20px !important
+  width: 100%
+.tarjeta-avatar > img 
+  left: 50%
+  top: 0
+  width: 85px
+
+.linea-tiempo-d__item
+  .linea-tiempo-d__item__content__title
+    height: 50px
+  .linea-tiempo-d__item__number
+    background-color: #D7E4FB
+  .linea-tiempo-d__item__content
+    background-color: #D7E4FB
+
+  &.row.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-botones
+      color: white
+    .linea-tiempo-d__item__content
+      background-color: $color-acento-botones-a10
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #DBF5F9
+      h4
+        color: $color-sistema-texto
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #DBF5F9
+    text-align: center
+
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.tabs-b
+  &__tab
+    background-color: #F2F4F5
+  &__content-item
+    padding: 20px !important
+    background-color: $color-acento-contenido-a5
+    
+.linea-tiempo-d
+  &__item:nth-child(6)
+    .linea-tiempo-d__item__content__title
+      height: 100px !important
+      @media screen and (min-width: 576px)
+        height: 70px !important
+      @media screen and (min-width: 992px)
+        height: 60px !important
+      @media screen and (min-width: 1280px)
+        height: 50px !important
+
+.tabla-a
+  &--text-left
+    td
+      text-align: left !important
+    thead
+      td
+        text-align: center !important
+
+ul.checklist
+  li
+    position: relative
+    &::before
+      position: absolute
+      left: -12px
+      top: -2px
+      content: url(../assets/curso/common/circle.png)
