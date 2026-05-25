@@ -364,4 +364,21 @@ ul.checklist
       position: absolute
       left: -12px
       top: -2px
-      content: url(../assets/curso/common/circle.png)
+      content: url(../assets/curso/common/circle.svg)
+
+.color-amarillo
+  .pasos-a
+    &__numero
+      &::after
+        border-left-color: #FFCE73
+    &__linea
+      .hor-line
+        border-top-color: #FFCE73
+
+      &__esquina
+        &__linea
+          border-color: #FFCE73
+    &__circle
+      background-color: #FFCE73
+      div
+        color: textColor(#FFCE73)
