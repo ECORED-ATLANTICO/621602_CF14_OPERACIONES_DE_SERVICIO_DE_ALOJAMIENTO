@@ -15,7 +15,7 @@
           div.banner-text.shadow
             p.mb-0 La gestión técnica de habitaciones comprende el conjunto de procedimientos, estándares y actividades orientadas a garantizar el adecuado funcionamiento, mantenimiento, presentación y disponibilidad de las habitaciones dentro de un establecimiento de alojamiento. Este proceso involucra la coordinación de recursos humanos, materiales y operativos necesarios para ofrecer espacios confortables, higiénicos y acordes con las expectativas del huésped y las políticas de calidad de la organización.
 
-    .p-4.rounded-4.bg-sencundario-s10
+    .p-4.rounded-4.bg-secundario-s10
       p.mb-0 Asimismo, la gestión técnica permite optimizar la operación del área de alojamiento mediante la correcta clasificación de habitaciones, el control de su estado operativo, la verificación de la dotación y el cumplimiento de estándares técnicos de servicio.
 
     separador

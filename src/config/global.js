@@ -174,18 +174,8 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Paso a paso del armado técnico',
-            hash: 't_6_2',
-          },
-          {
-            numero: '6.3',
-            titulo: 'Tipologías de arreglo según el momento',
-            hash: 't_6_3',
-          },
-          {
-            numero: '6.4',
             titulo: 'Especificaciones técnicas de la lencería de cama',
-            hash: 't_6_4',
+            hash: 't_6_2',
           },
         ],
       },

@@ -30,7 +30,7 @@
       h2 3.1 Limpieza y desinfección: protocolos de bioseguridad
 
     .p-4.rounded-4.bg-secundario-s5.mb-5
-      p.mb-0 Es fundamental diferenciar entre limpiar (eliminar suciedad visible) y desinfectar (eliminar microorganismos no visibles).
+      p.mb-0.text-center Es fundamental diferenciar entre limpiar (eliminar suciedad visible) y desinfectar (eliminar microorganismos no visibles).
       
     .row.justify-content-center
       .col-12.col-lg-10.mb-0.col-md-12
@@ -53,7 +53,7 @@
       
     p.mb-4.mb-lg-5 El tendido de cama es la "carta de presentación" de la habitación. Un estándar profesional sigue estos pasos técnicos: 
 
-    .row.mb-5.justify-content-center.align-items-stretch
+    .row.justify-content-center.align-items-stretch
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
           .tarjeta-avatar-b__img.align-items-baseline.h-100
@@ -205,7 +205,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        PasosA.color-amarillo.mb-5(tipo="n")
+        PasosA.color-amarillo(tipo="n")
           .row.align-items-center.justify-content-center
             .col-md-9.mb-4.mb-md-0
               h3 Ubicación y alineación de la sábana.

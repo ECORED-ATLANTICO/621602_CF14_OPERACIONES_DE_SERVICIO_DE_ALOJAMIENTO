@@ -24,7 +24,7 @@
         .p-4.bg-acento-contenido-a5.rounded-4.mb-3
           p.mb-0 La configuración del departamento sigue una estructura piramidal que asegura la supervisión y el control de calidad. La autoridad fluye desde la ama de llaves ejecutiva hacia los niveles operativos. Esta jerarquía no debe entenderse como una división rígida, sino como una cadena de responsabilidades donde la comunicación asertiva es el eje transversal.
       
-    .row.justify-content-center.align-items-center.z-2.mb-5.bg-secundario-s5.pt-3.rounded-4
+    .row.justify-content-center.align-items-center.z-2.mb-5.bg-secundario-s1.pt-3.rounded-4
       .col-lg-10.col-xl-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
@@ -175,7 +175,7 @@
               h4 Auxiliares de áreas públicas
               p.mb-0 Responsables del mantenimiento preventivo y la higiene de los espacios comunes y de servicio, garantizando ambientes seguros y acogedores.
 
-    .row.justify-content-center.align-items-center.z-2.mb-5.bg-secundario-s5.py-4.rounded-4
+    .row.justify-content-center.align-items-center.z-2.mb-5.bg-secundario-s1.py-4.rounded-4
       .col-lg-8.col-xl-6
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
@@ -305,32 +305,32 @@
           .tarjeta-avatar-b__img.align-items-baseline.h-100
             img(src='@/assets/curso/tema1/37.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
-            .p-4.p-lg-3.p-xl-4
-              h4 Infraestructura y acabados
+            .ps-1.py-4.pe-4
+              h5 Infraestructura y acabados
               p.mb-0 Verificación de pintura, alfombras, tapicerías y estado de armarios.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-down").h-100
           .tarjeta-avatar-b__img.align-items-baseline.h-100
             img(src='@/assets/curso/tema1/38.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
-            .p-4.p-lg-3.p-xl-4
-              h4 Instalaciones hidrosanitarias
+            .ps-1.py-4.pe-4
+              h5 Instalaciones hidrosanitarias
               p.mb-0 Revisión de funcionamiento de sanitarios, cisternas y grifería.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
           .tarjeta-avatar-b__img.align-items-baseline.h-100
             img(src='@/assets/curso/tema1/39.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
-            .p-4.p-lg-3.p-xl-4
-              h4 Sistemas eléctricos y conectividad
+            .ps-1.py-4.pe-4
+              h5 Sistemas eléctricos y conectividad
               p.mb-0 Comprobación de iluminación (bombillos), cables de comunicación y aparatos eléctricos.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
           .tarjeta-avatar-b__img.align-items-baseline.h-100
             img(src='@/assets/curso/tema1/40.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
-            .p-4.p-lg-3.p-xl-4
-              h4 Dotación de lencería
+            .ps-1.py-4.pe-4
+              h5 Dotación de lencería
               p.mb-0 Auditoría del estado y limpieza de toallas y lencería de cama.
 
     .row.justify-content-center.align-items-stretch.mb-4.z-2

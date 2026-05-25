@@ -16,7 +16,7 @@
 
     separador
     
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.1 Normativa de sostenibilidad: la norma NTC 6503
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
@@ -65,7 +65,7 @@
     .p-4.bg-acento-contenido-a5.rounded-4.mb-5
       p.mb-0 Enfocada en el respeto y fortalecimiento de la identidad cultural, las tradiciones locales y el patrimonio de las comunidades, promoviendo relaciones responsables con empleados, huéspedes y entorno social, además de fomentar prácticas de inclusión, equidad y responsabilidad social empresarial.
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/6.png", alt="" data-aos="zoom-in-down")
@@ -76,13 +76,15 @@
               img(src='@/assets/curso/tema4/7.svg', alt='')
               .tarjeta.bg-acento-botones-a5
                 .p-4.text-center
-                  p Preservar la confidencialidad de la información y propiedad de los clientes.
+                  h4.text-center Promoción del destino
+                  p.text-center.mb-0 Inclusión de información sobre atractivos locales y respeto por las comunidades anfitrionas.
           .col-lg-6.mb-3.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/tema4/8.svg', alt='')
               .tarjeta.bg-acento-botones-a5
                 .p-4.text-center
-                  p Mantener los registros disponibles, ordenados y actualizados.
+                  h4.text-center Prevención de la ESCNNA
+                  p.text-center.mb-0 Implementación rigurosa del Código de Conducta para prevenir la explotación sexual comercial de niños, niñas y adolescentes.
 
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Dimensión económica
@@ -184,6 +186,8 @@
 
     .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Principios de biomecánica aplicada
+
+    p.mb-4 Para proteger la zona lumbar y cervical, el personal debe interiorizar tres reglas de oro:
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0

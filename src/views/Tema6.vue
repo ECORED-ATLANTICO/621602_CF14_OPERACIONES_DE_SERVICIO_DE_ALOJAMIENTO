@@ -5,12 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 6	Procedimiento técnico de arreglo de cama (tendido de precisión)
-
-    separador
-    
-    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.2 Paso a paso del armado técnico
+      h1 Procedimiento técnico de arreglo de cama (tendido de precisión)
 
     .mt-5.pt-4
       .fullwidth-bg.fullwidth-bg--1
@@ -19,9 +14,46 @@
       .row.justify-content-center.z-2.mb-3
         .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
           div.banner-text.shadow
-            p.mb-0 El paso a paso del armado técnico corresponde a la secuencia organizada de actividades que se realizan para efectuar correctamente el tendido y presentación de la cama en una habitación de alojamiento. Este procedimiento se desarrolla siguiendo estándares técnicos de higiene, orden, ergonomía y calidad, con el propósito de garantizar comodidad, funcionalidad y una adecuada presentación del espacio destinado al huésped.
+            p.mb-0 El tendido de precisión es un procedimiento técnico utilizado en los servicios de alojamiento para garantizar que la cama presente condiciones óptimas de higiene, comodidad, estética y presentación. este proceso busca estandarizar el arreglo de la unidad habitacional, mejorando la experiencia del huésped y fortaleciendo la calidad del servicio. El objetivo es lograr una cama con tensión perfecta, simetría absoluta y condiciones de higiene verificables. El estándar de una cama bien tendida es que no presente arrugas y que la lencería esté alineada milimétricamente con el borde superior del colchón.
+    
+    separador
+    
+    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 6.1 Preparación y desarmado (protocolo de higiene)
 
-    .row.justify-content-center.mb-5
+    .p-4.rounded-4.bg-secundario-s5.mb-5
+      p.mb-0 Este procedimiento se desarrolla siguiendo estándares técnicos de higiene, orden, ergonomía y calidad, con el propósito de garantizar comodidad, funcionalidad y una adecuada presentación del espacio destinado al huésped.
+
+    .row.mb-5.justify-content-center.align-items-stretch
+      .col-sm-6.col-lg-5.col-xl-4.mb-3.mb-xl-0
+        .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
+          .tarjeta-avatar-b__img.align-items-baseline.h-100
+            img(src='@/assets/curso/tema6/7.svg' alt='')
+          .tarjeta.bg-img.bg-img--7.h-100
+            .p-4.p-lg-3.p-xl-4
+              h4 Retirada de fundas
+              p.mb-0 Quitar las almohadas y retirar las fundas sin sacudirlas. Colocarlas sobre una silla limpia, nunca en el piso.
+      .col-sm-6.col-lg-5.col-xl-4.mb-3.mb-xl-0
+        .tarjeta-avatar-b.align-items-center(data-aos="fade-down").h-100
+          .tarjeta-avatar-b__img.align-items-baseline.h-100
+            img(src='@/assets/curso/tema6/8.svg' alt='')
+          .tarjeta.bg-img.bg-img--7.h-100
+            .p-4.p-lg-3.p-xl-4
+              h4 Desmontaje en bloque
+              p.mb-0 Retirar colcha, mantas y sábanas enrollándolas hacia adentro (lado sucio hacia adentro) para atrapar partículas y cabellos.
+      .col-sm-6.col-lg-5.col-xl-4.mb-3.mb-xl-0
+        .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
+          .tarjeta-avatar-b__img.align-items-baseline.h-100
+            img(src='@/assets/curso/tema6/9.svg' alt='')
+          .tarjeta.bg-img.bg-img--7.h-100
+            .p-4.p-lg-3.p-xl-4
+              h4 Inspección del protector
+              p.mb-0 Verificar que el protector de colchón esté limpio y seco. Si hay manchas, debe cambiarse de inmediato.
+
+    p.mb-4.mb-lg-5 El paso a paso del armado técnico corresponde a la secuencia organizada de actividades que se realizan para efectuar correctamente el tendido y presentación de la cama en una habitación de alojamiento. Este procedimiento se desarrolla siguiendo estándares técnicos de higiene, orden, ergonomía y calidad, con el propósito de garantizar comodidad, funcionalidad y una adecuada presentación del espacio destinado al huésped.
+    
+    
+    .row.justify-content-center
       .col-12.col-lg-10.mb-0.col-md-12
         .cita-decorada
           blockquote.cita-decorada__caja.p-3.bg-acento-contenido-a5.rounded-4
@@ -37,8 +69,8 @@
 
     separador
     
-    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.3	Especificaciones técnicas de la lencería de cama
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 6.2	Especificaciones técnicas de la lencería de cama
 
     .row.g-0.rounded-4.bg-acento-botones-a5.mb-5.justify-content-center
       .col-sm-6.col-lg-3.d-flex
@@ -46,19 +78,19 @@
           img(src="@/assets/curso/tema6/2.png", alt="alt text" data-aos="zoom-in-down")
       .col-lg-9.p-4.p-xl-0
         .d-flex.flex-column.justify-content-center.h-100
-          p.px-lg-3 La lencería debe tener un "margen de caída" suficiente para permitir el remetido técnico (ángulo de mitra) y cubrir el espesor del colchón, que en hotelería suele oscilar entre los 25 y 30 cm. Según García y López (2023), "una lencería con dimensiones insuficientes impide la tensión necesaria para un tendido de alta calidad y acelera el deterioro de las costuras por exceso de fuerza" (p. 195).
+          p.px-lg-3 La lencería debe tener un "margen de caída" suficiente para permitir el remetido técnico (ángulo de mitra) y cubrir el espesor del colchón, que en hotelería suele oscilar entre los 25 y 30 cm. Según García y López (2023).
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
-        .bloque-texto-e.bg-acento-contenido-a5.py-2.px-4.rounded-4
-          .bloque-texto-e__texto
+        .bloque-texto-e.bg-acento-contenido-a5.p-4.rounded-4
+          .bloque-texto-e__texto.mb-3
             i.fas.fa-quote-left
-            p una lencería con dimensiones insuficientes impide la tensión necesaria para un tendido de alta calidad y acelera el deterioro de las costuras por exceso de fuerza
+            p Una lencería con dimensiones insuficientes impide la tensión necesaria para un tendido de alta calidad y acelera el deterioro de las costuras por exceso de fuerza
             i.fas.fa-quote-right
           .row.align-items-end
             .col
               .bloque-texto-e__autor 
-                p.mb-0 (Boullón, 2006).
+                p.mb-0 (p. 195).
       .col-sm-8.col-lg-4
         figure
           img(data-aos="zoom-in-down", src="@/assets/curso/tema6/3.png", alt="Especificaciones técnicas de la lencería de cama")
