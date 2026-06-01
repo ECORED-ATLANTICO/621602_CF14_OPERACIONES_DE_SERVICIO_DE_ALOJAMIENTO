@@ -21,7 +21,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-6
-        .p-4.bg-acento-contenido-a5.rounded-4.mb-3
+        .p-4.bg-acento-contenido-a5.rounded-4
           p.mb-0 La configuración del departamento sigue una estructura piramidal que asegura la supervisión y el control de calidad. La autoridad fluye desde la ama de llaves ejecutiva hacia los niveles operativos. Esta jerarquía no debe entenderse como una división rígida, sino como una cadena de responsabilidades donde la comunicación asertiva es el eje transversal.
       
     .row.justify-content-center.align-items-center.z-2.mb-5.bg-secundario-s1.pt-3.rounded-4
@@ -112,7 +112,7 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/10.png", alt="")
 
-    TabsB.color-primario
+    TabsB.color-primario.tabs-b-icom-mod
       .py-4.py-md-5(titulo="Supervisión de ama de llaves" :icono="require('@/assets/curso/tema1/11.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
@@ -195,7 +195,7 @@
         p La gestión del ama de llaves se divide en procesos de organización, supervisión y coordinación interdepartamental.
         p.mb-0 Matriz de misiones y funciones del ama de llaves
 
-    TabsB.color-primario
+    TabsB.color-primario.tabs-b-icom-mod
       .py-4.py-md-5(titulo="Talento humano" :icono="require('@/assets/curso/tema1/23.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
@@ -287,7 +287,7 @@
       h2 1.5 Supervisión técnica y control de calidad
 
     .row.g-0.rounded-4.bg-acento-botones-a5.mb-5.justify-content-center
-      .col-sm-6.col-lg-3.d-flex
+      .col-sm-6.col-lg-3.d-flex.align-items-center
         figure.m-0
           img(src="@/assets/curso/tema1/36.png", alt="alt text" data-aos="zoom-in-down")
       .col-lg-9.p-4.p-xl-0

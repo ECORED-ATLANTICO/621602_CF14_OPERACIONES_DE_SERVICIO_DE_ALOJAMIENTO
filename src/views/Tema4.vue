@@ -304,7 +304,7 @@
       h5.mb-0 Gestión de riesgo biológico y fluidos corporales
 
     .row.g-0.rounded-4.bg-acento-botones-a5.mb-5.justify-content-center
-      .col-sm-6.col-lg-3.d-flex
+      .col-sm-6.col-lg-3.d-flex.align-items-center
         figure.m-0
           img(src="@/assets/curso/tema4/18.png", alt="alt text" data-aos="zoom-in-down")
       .col-lg-9.p-4.p-xl-0
@@ -401,18 +401,18 @@
       p.mb-0 Antes de iniciar la jornada de tendido y limpieza, el talento humano debe preparar sus articulaciones.
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         figure
           img(src="@/assets/curso/tema4/27.png", alt="" data-aos="fade-down-right")
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .p-4.rounded-4.bg-img.bg-img--3.h-100
           h5.text-center Activación de muñecas
           p.mb-0.text-center Realizar círculos suaves con las muñecas en ambos sentidos y estiramientos de flexores y extensores. Esto previene el síndrome del túnel carpiano.
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-sm-0
         .p-4.rounded-4.bg-img.bg-img--3.h-100
           h5.text-center Movilidad de hombros
           p.mb-0.text-center Elevación y descenso de hombros, y rotaciones hacia atrás para liberar la tensión acumulada en el trapecio.
-      .col-sm-6.col-lg-4.col-xl-3
+      .col-sm-6.col-lg-5.col-xl-3
         .p-4.rounded-4.bg-img.bg-img--3.h-100
           h5.text-center Desbloqueo de cadera
           p.mb-0.text-center Realizar movimientos circulares con la pelvis para lubricar la articulación coxofemoral antes de las flexiones repetitivas.

@@ -73,7 +73,7 @@
       h2 6.2	Especificaciones técnicas de la lencería de cama
 
     .row.g-0.rounded-4.bg-acento-botones-a5.mb-5.justify-content-center
-      .col-sm-6.col-lg-3.d-flex
+      .col-sm-6.col-lg-3.d-flex.align-items-center
         figure.m-0
           img(src="@/assets/curso/tema6/2.png", alt="alt text" data-aos="zoom-in-down")
       .col-lg-9.p-4.p-xl-0
@@ -149,14 +149,14 @@
       p.mb-0.text-center Además de las sábanas, el coordinador debe supervisar que los complementos mantengan la misma proporción:
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-sm-6.col-lg-4.mb-4.mb-xl-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
             .col-6
               img.w-90.mb-4(src='@/assets/curso/tema6/4.svg' alt='')
           h5.text-center Protector de colchón: 
           p.text-center.mb-4 Debe ser de la medida exacta del colchón (ej. 160 x 190 para Queen) y contar con un faldón elástico de al menos 30 cm para abrazar toda la estructura.
-      .col-sm-6.col-lg-4.mb-4.mb-xl-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
             .col-6
