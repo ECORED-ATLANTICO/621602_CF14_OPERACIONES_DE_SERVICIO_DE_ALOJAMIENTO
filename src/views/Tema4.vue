@@ -24,7 +24,8 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p La norma NTC 6503, emitida por la Organización Colombiana de Normalización (ICONTEC), es una referencia clave para la prestación de servicios de alojamiento en el país. Esta normativa establece criterios de sostenibilidad, seguridad y calidad que orientan la planeación, ejecución y control de los procesos operativos del área de alojamiento. Su cumplimiento es obligatorio para garantizar condiciones adecuadas de servicio, cumplimiento de estándares internacionales y protección de los intereses de los huéspedes y trabajadores del sector.
+        p En la actualidad, la coordinación de servicios de alojamiento debe regirse por la Norma Técnica Colombiana NTC 6503, la cual unifica los criterios de sostenibilidad para el sector. Esta norma no solo busca la eficiencia operativa, sino que posiciona al establecimiento dentro de los estándares de competitividad exigidos por el Ministerio de Comercio, Industria y Turismo.
+        p.mb-0 La implementación de la NTC 6503 en el área de alojamiento se articula en tres dimensiones estratégicas que el coordinador debe supervisar:
 
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Dimensión ambiental
@@ -98,10 +99,10 @@
       .col-lg-7
         .p-4.bg-acento-contenido-a5.rounded-4.mb-3
           h5 Contratación local: 
-          p.mb-0 priorización de proveedores de la región para el abastecimiento de insumos de camarería.
+          p.mb-0 Priorización de proveedores de la región para el abastecimiento de insumos de camarería.
         .p-4.bg-acento-contenido-a5.rounded-4.mb-3
           h5 Calidad en el servicio:
-          p.mb-0 mejora continua de los procesos de alojamiento para asegurar la satisfacción y fidelización de la persona usuaria.
+          p.mb-0 Mejora continua de los procesos de alojamiento para asegurar la satisfacción y fidelización de la persona usuaria.
       
 
     .titulo-sexto.color-acento-contenido.mb-4
@@ -117,17 +118,17 @@
             th Evidencia de cumplimiento
         tbody
           tr
-            td Ambiental.
-            td Control de recambio de lencería bajo criterios de ahorro.
-            td Registros de consumo de agua y energía por habitación.
+            td Ambiental
+            td Control de recambio de lencería bajo criterios de ahorro
+            td Registros de consumo de agua y energía por habitación
           tr
-            td Sociocultural.
-            td Capacitación del personal en protección del patrimonio.
-            td Certificados de formación del talento humano.
+            td Sociocultural
+            td Capacitación del personal en protección del patrimonio
+            td Certificados de formación del talento humano
           tr
-            td Económico.
-            td Evaluación de proveedores de insumos eco-amigables.
-            td Fichas técnicas de productos de limpieza sostenibles.
+            td Económico
+            td Evaluación de proveedores de insumos eco-amigables
+            td Fichas técnicas de productos de limpieza sostenibles
 
     .p-4.bg-acento-contenido-a5.rounded-4.mb-5
       p.mb-0 La coordinación del servicio de alojamiento debe traducir los requisitos de la NTC 6503 en protocolos operativos que el personal de pisos (camareras y auxiliares) pueda ejecutar. Esta norma se divide en criterios de cumplimiento que impactan directamente la unidad de alojamiento.
@@ -145,17 +146,17 @@
             th Indicador de seguimiento
         tbody
           tr
-            td Ahorro de agua.
-            td Uso de técnicas de limpieza que minimicen el consumo de agua por habitación.
-            td Litros de agua consumidos por habitación ocupada.
+            td Ahorro de agua
+            td Uso de técnicas de limpieza que minimicen el consumo de agua por habitación
+            td Litros de agua consumidos por habitación ocupada
           tr
-            td Insumos sostenibles.
-            td Uso de productos de limpieza con etiquetas ecológicas (biodegradables).
-            td Inventario de químicos con ficha técnica ambiental.
+            td Insumos sostenibles
+            td Uso de productos de limpieza con etiquetas ecológicas (biodegradables)
+            td Inventario de químicos con ficha técnica ambiental
           tr
-            td Compromiso social.
-            td Vigilancia y reporte de conductas sospechosas relacionadas con ESCNNA.
-            td Número de reportes o verificaciones de protocolo.
+            td Compromiso social
+            td Vigilancia y reporte de conductas sospechosas relacionadas con ESCNNA
+            td Número de reportes o verificaciones de protocolo
 
     separador
     
@@ -203,19 +204,20 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
+              img(src="@/assets/curso/tema4/13.png", alt="")
+          .crd_hover_txt--body.bg-acento-contenido-a5
+            h4.mb-3.text-center Aproximación:
+            p.mb-0.text-center Cuanto más cerca esté la carga del cuerpo, menor es la presión sobre los discos intervertebrales.
+
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
               img(src="@/assets/curso/tema4/12.png", alt="")
           .crd_hover_txt--body.bg-acento-contenido-a5
             h4.mb-3.text-center Base de sustentación: 
             p.mb-0.text-center Mantener los pies ligeramente separados para aumentar el equilibrio y la estabilidad.
     
-      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema4/13.png", alt="")
-          .crd_hover_txt--body.bg-acento-contenido-a5
-            h4.mb-3.text-center Control de emisiones y vertimientos
-            p.mb-0.text-center Uso de productos de limpieza biodegradables para proteger las fuentes hídricas.
 
     .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Protocolos técnicos de movimiento (basados en el manual de buenas prácticas)
@@ -282,6 +284,25 @@
                   i.fas.fa-file-download
 
     .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
+      h5.mb-0 Claves para un trabajo seguro en alojamiento
+
+    p.mb-4.mb-lg-5 Las actividades propias del servicio de alojamiento requieren la ejecución constante de tareas físicas que, si no se realizan de manera adecuada, pueden generar lesiones y afectar el bienestar de los trabajadores. Por ello, es fundamental aplicar principios de biomecánica y técnicas seguras de movimiento que permitan proteger la salud, prevenir trastornos musculoesqueléticos y mejorar la eficiencia en el desempeño laboral. A continuación, se presentan las principales recomendaciones para adoptar posturas correctas, manipular cargas de forma segura y ejecutar las labores de limpieza y arreglo de habitaciones con mayor seguridad y productividad.
+
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-10.mb-0.col-md-12
+        .cita-decorada
+          blockquote.cita-decorada__caja.p-3.bg-acento-contenido-a5.rounded-4
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.mb-3.mb-lg-0
+                img(src="@/assets/curso/common/newspaper.png", class="img-fluid cita-decorada__imagen-flotante-4 cita-decorada__imagen-flotante-4--bigger")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0.text-center.text-lg-start #[strong Anexo]. Claves para un trabajo seguro en alojamiento. 
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones.my-2(:href="obtenerLink('/downloads/6_Claves_para_un_trabajo_seguro_en_alojamiento.pdf')" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download
+
+    .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Dimensión de riesgo químico y biológico
 
     .p-4.rounded-4.bg-secundario-s5.mb-5
@@ -310,7 +331,9 @@
       .col-lg-9.p-4.p-xl-0
         .d-flex.flex-column.justify-content-center.h-100
           p.px-lg-3 Comprende las medidas preventivas y los procedimientos técnicos orientados a minimizar la exposición del personal a agentes biológicos que puedan representar riesgos para la salud durante el desarrollo de las actividades operativas. En el servicio de hospedaje, estas situaciones pueden presentarse durante la limpieza y desinfección de habitaciones, el manejo de residuos, la manipulación de lencería contaminada o la atención de novedades relacionadas con fluidos corporales.
-          p.px-lg-3 Actividades de gestión de riesgo
+    
+    .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
+      h5.mb-0 Actividades de gestión de riesgo
 
     TabsB.color-primario.mb-4.mb-lg-5
       .py-4.py-md-5(titulo="Protocolo de 'no sacudido'" :icono="require('@/assets/curso/tema4/19.svg')")
@@ -381,9 +404,9 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/common/newspaper.png", class="img-fluid cita-decorada__imagen-flotante-4 cita-decorada__imagen-flotante-4--bigger")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0.text-center.text-lg-start #[strong Anexo]. Claves para un trabajo seguro en alojamiento. 
+                p.mb-0.text-center.text-lg-start #[strong Anexo]. Protocolos de seguridad en limpieza hotelera. 
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones.my-2(:href="obtenerLink('/downloads/6_Claves_para_un_trabajo_seguro_en_alojamiento.pdf')" target="_blank")
+                a.boton.color-acento-botones.my-2(:href="obtenerLink('/downloads/7_Protocolos_de_Seguridad_en_limpieza_hotelera.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 
@@ -533,7 +556,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/38.png", alt="")
     
     .p-4.rounded-4.bg-acento-contenido-a5.mb-5
-      p.mb-0.text-center Los vertimientos generados en el aseo de habitaciones contienen cargas orgánicas y químicas que afectan las plantas de tratamiento de aguas residuales (PTAR) de la ciudad
+      p.mb-0.text-center Los vertimientos generados en el aseo de habitaciones contienen cargas orgánicas y químicas que afectan las plantas de tratamiento de aguas residuales (PTAR) de la ciudad.
 
     .row.align-items-stretch.mb-5
       .col-lg-6.mb-4.mb-lg-0

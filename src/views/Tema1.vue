@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Area de habitaciones
+      h1 Área de habitaciones
 
     .mt-5.pt-4
       .fullwidth-bg.fullwidth-bg--1
@@ -29,8 +29,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Jerarquía del departamento de pisos
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/3-mob.png", alt="La figura muestra la estructura organizacional del departamento de pisos, conformada por el nivel directivo, nivel de supervisión y nivel operativo.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/3.png", alt="La figura muestra la estructura organizacional del departamento de pisos, conformada por el nivel directivo, nivel de supervisión y nivel operativo.")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/3-mob.png", alt="La figura describe la estructura organizacional del departamento de pisos, conformada por el nivel directivo, nivel de supervisión y nivel operativo.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/3.png", alt="La figura describe la estructura organizacional del departamento de pisos, conformada por el nivel directivo, nivel de supervisión y nivel operativo.")
         figcaption  Nota. SENA, (2024).
 
     .p-4.bg-acento-botones-a5.rounded-4.mb-4.mb-lg-5
@@ -133,7 +133,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             h4 Supervisión de áreas públicas
-            p.mb-0 Coordina y verifica la limpieza y desinfección de las zonas sociales, (lobby, pasillos), asegurando que los estándares estéticos se mantengan para todos los que transitan por el establecimiento.
+            p.mb-0 Coordina y verifica la limpieza y desinfección de las zonas sociales, (#[em lobby], pasillos), asegurando que los estándares estéticos se mantengan para todos los que transitan por el establecimiento.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/16.png', alt='')
@@ -182,7 +182,7 @@
           span Estructura organizacional del área de habitaciones
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/21-mob.svg", alt="En la figura se presenta la estructura organizacional del área de habitaciones, en cada uno de sus niveles.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/21.svg", alt="En la figura se presenta la estructura organizacional del área de habitaciones, en cada uno de sus niveles.")
-        figcaption  Nota. SENA, (2024).
+        figcaption  Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4.order-1.order-lg-0
@@ -193,7 +193,7 @@
         .p-4.rounded-4.bg-secundario-s5.mb-3
           p.mb-0 De acuerdo con las tendencias actuales en hospitalidad, este rol requiere una visión sistémica de la operación, donde la economía de lencería y el control de suministros impactan directamente en la rentabilidad (García & López, 2023). Asimismo, es la persona responsable de brindar la atención protocolaria necesaria ante situaciones de salud o requerimientos especiales de las personas usuarias.
         p La gestión del ama de llaves se divide en procesos de organización, supervisión y coordinación interdepartamental.
-        p.mb-0 Matriz de misiones y funciones del ama de llaves
+        p.mb-0 #[strong Matriz de misiones y funciones del ama de llaves]
 
     TabsB.color-primario.tabs-b-icom-mod
       .py-4.py-md-5(titulo="Talento humano" :icono="require('@/assets/curso/tema1/23.svg')")
@@ -246,7 +246,7 @@
     .row.justify-content-center.mb-5
       .col-xl-10
         .p-4.bg-secundario-s10.rounded-4
-          p.mb-0.text-center Instrumentos de control y seguimiento
+          p.mb-0.text-center #[strong Instrumentos de control y seguimiento]
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
@@ -255,7 +255,7 @@
             .col-6
               img.w-125.mb-4(src='@/assets/curso/tema1/32.svg' alt='')
           h5.text-center Control de habitaciones
-          p.text-center.mb-4 Auditoría del estado físico y de limpieza de cada unidad habitacional de acuerdo con el checklist institucional.
+          p.text-center.mb-4 Auditoría del estado físico y de limpieza de cada unidad habitacional de acuerdo con el #[em checklist] institucional.
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
@@ -269,7 +269,7 @@
             .col-6
               img.w-125.mb-4(src='@/assets/curso/tema1/34.svg' alt='')
           h5.text-center Insumos y suministros
-          p.text-center.mb-4 Control de existencias de material de aseo y productos de limpieza para evitar desperdicios y garantizar el stock.
+          p.text-center.mb-4 Control de existencias de material de aseo y productos de limpieza para evitar desperdicios y garantizar el #[em stock].
       .col-sm-6.col-lg-5.col-xl-3
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
@@ -297,7 +297,7 @@
     .row.justify-content-center.mb-5
       .col-xl-10
         .p-4.bg-secundario-s5.rounded-4
-          p.mb-0.text-center Protocolo de inspección y reporte de averías
+          p.mb-0.text-center #[strong Protocolo de inspección y reporte de averías]
 
     .row.mb-5.justify-content-center.align-items-stretch
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
@@ -340,9 +340,25 @@
             .col-lg-2.position-lg-relative.z-2
               img.position-lg-absolute.img-flotante(src="@/assets/curso/tema1/41.png", alt="").img-fluid.d-none.d-lg-block
             .col-lg-10
-              p.mb-0 #[strong Nota:]. Todas las averías detectadas deben reportarse mediante un documento técnico (con duplicado) al servicio de mantenimiento, el cual debe ser firmado por el encargado de dicha dependencia para asegurar la trazabilidad.
+              p.mb-0 #[strong Nota:] todas las averías detectadas deben reportarse mediante un documento técnico (con duplicado) al servicio de mantenimiento, el cual debe ser firmado por el encargado de dicha dependencia para asegurar la trazabilidad.
 
-
+    .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.z-2
+      .col-sm-8.col-lg-5.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema1/42.png", alt="")
+      .col-lg-7.bg-audio.rounded-4
+        .row.align-items-center
+          .col-sm-4
+            figure.pt-3
+              img.w-155.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="alt")
+          .col-sm-8.col-lg-8
+            h5 ¿Sabías qué?
+            p Lo invitamos a escuchar el siguiente pódcast:
+            TarjetaAudio.color-terciario.mb-3(
+              texto="“Charlas que venden” Episodio: Definir algunos principios básicos "
+              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
 
 
 </template>

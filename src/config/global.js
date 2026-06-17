@@ -67,7 +67,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Estados de la habitación (status)',
+            titulo: 'Estados de la habitación (<em>status</em>)',
             hash: 't_2_2',
           },
           {
@@ -211,7 +211,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF14_621602_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -305,56 +305,57 @@ export default {
   referencias: [
     {
       referencia:
-        'Boullón, R. C. (2006). <em>Planificación del espacio turístico</em>. Trillas.',
+        'García, M., & López, A. (2023). <em>Gestión de Alojamiento y Protocolos de Calidad</em>. Editorial Turismo Global.',
       link: '',
     },
     {
       referencia:
-        'Cobo, C. (2013). Orientación geográfica: la geoperspectiva integral. <em>Geograficando</em>, <em>9</em>(9).',
+        'Hoteles Estelar S.A. (s.f.). <em>manual de políticas y procedimientos de alojamiento. Capítulo II: ama de llaves</em>. Departamento De Gestión Humana y Calidad.',
       link: '',
     },
     {
       referencia:
-        'Comisión Europea, Fondo Monetario Internacional, Organización de Cooperación y Desarrollo Económicos, Naciones Unidas y Banco Mundial. (2008). <em>Sistema de cuentas nacionales 2008</em>. Naciones Unidas.',
+        'ICONTEC. (2024). <em>Guía explicativa NTC 6503: Sistema de gestión de sostenibilidad para establecimientos de alojamiento y hospedaje</em>.',
+      link:
+        'https://calidadturistica.gov.co/attachments/courses/1/36/Gu%C3%ADa%20explicativa%20NTC-6503%20SGSostenibilidad%20establecimiento%20de%20alojamiento%20y%20hospedaje.pdf',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Seguridad y Salud en el Trabajo (INSST). (2019). <em>Guía para la gestión y evaluación de los riesgos ergonómicos y psicosociales en el sector hotelero</em>. Ministerio de Trabajo y Economía Social de España.',
+      link:
+        'https://www.insst.es/documents/94886/599872/Gu%C3%ADa%20para%20la%20gesti%C3%B3n%20y%20evaluaci%C3%B3n%20de%20los%20riesgos%20ergon%C3%B3micos%20y%20psicosociales%20en%20el%20sector%20hotelero%20-%20A%C3%B1o%202019.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (2024). <em>Normas técnicas colombianas y guías de calidad turística</em>. Gobierno de Colombia.',
+      link:
+        'https://www.mincit.gov.co/minturismo/calidad-y-desarrollo-sostenible/calidad-turistica/normas-tecnicas-colombianas-y-guias',
+    },
+    {
+      referencia:
+        'Secretaría de Educación de Honduras. (2023). <em>Manual de Ama de Llaves</em>. Subdirección General de Educación de Jóvenes y Adultos (SDGEJA). [Adaptación técnica para formación profesional en hotelería].',
       link: '',
     },
     {
       referencia:
-        'Coque, M. y Arroyo, E. (2017). <em>Información y atención al visitante</em>. Paraninfo.',
-      link: '',
-    },
-    {
-      referencia: 'FONTUR. (s. f.). Glosario. Fondo Nacional de Turismo.',
+        'Servicio Nacional de Aprendizaje [SENA]. (2024). <em>Guía de Estándares Técnicos para el Aseo y Desinfección en Establecimientos de Hospedaje</em>. Dirección de Formación Profesional.',
       link: '',
     },
     {
       referencia:
-        'García Silberman, A. (1970). Clasificación de los recursos turísticos. <em>Investigaciones Geográficas</em>, <em>1</em>(3).',
-      link: '',
-    },
-    {
-      referencia: 'Luna, N. (s. f.). Comunicación asertiva con turistas. SENA.',
+        'Servicio Nacional de Aprendizaje [SENA]. (2024). <em>Manual de Procesos Químicos y Manejo de Insumos en Alojamiento</em>. Red de Turismo y Hotelería.',
       link: '',
     },
     {
       referencia:
-        'Martín, B. (2013, 24 de octubre). Cadena de valor en turismo [Entrada de blog]. Turismo y sostenibilidad.',
+        'Servicio Nacional de Aprendizaje [SENA]. (2026). <em>Guía Técnica para la Planeación y Control de Procesos en Alojamiento: Ruta Crítica y Gestión de Productividad</em>.',
       link: '',
     },
     {
       referencia:
-        'ONU Turismo. (s. f.). Glosario de términos de turismo. ONU Turismo. (anteriormente Organización Mundial del Turismo, OMT)',
-      link: '',
-    },
-    {
-      referencia:
-        'Ruano, C. (2012). <em>Promoción y comercialización de productos y servicios turísticos locales</em>. Alianza Editorial.',
-      link: '',
-    },
-    {
-      referencia:
-        'SENA. (s. f.). El turismo rural en Colombia [Video]. YouTube.',
-      link: '',
+        'Xenia Team. (2025). <em>Guía definitiva para la gestión de operaciones de limpieza</em>.',
+      link:
+        'https://www.xenia.team/articles/housekeeping-operations-management-guide-checklists',
     },
   ],
   creditos: [

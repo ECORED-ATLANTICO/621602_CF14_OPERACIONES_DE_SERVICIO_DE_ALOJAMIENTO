@@ -50,10 +50,16 @@
               h4 Inspección del protector
               p.mb-0 Verificar que el protector de colchón esté limpio y seco. Si hay manchas, debe cambiarse de inmediato.
 
+    .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
+      h5.mb-0 Secuencia Técnica del tendido
+    separador
+    
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 6.2	Paso a paso del armado técnico
+    
     p.mb-4.mb-lg-5 El paso a paso del armado técnico corresponde a la secuencia organizada de actividades que se realizan para efectuar correctamente el tendido y presentación de la cama en una habitación de alojamiento. Este procedimiento se desarrolla siguiendo estándares técnicos de higiene, orden, ergonomía y calidad, con el propósito de garantizar comodidad, funcionalidad y una adecuada presentación del espacio destinado al huésped.
     
-    
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-12.col-lg-10.mb-0.col-md-12
         .cita-decorada
           blockquote.cita-decorada__caja.p-3.bg-acento-contenido-a5.rounded-4
@@ -67,10 +73,8 @@
                   span Descargar
                   i.fas.fa-file-download
 
-    separador
-    
-    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.2	Especificaciones técnicas de la lencería de cama
+    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 6.3	Especificaciones técnicas de la lencería de cama
 
     .row.g-0.rounded-4.bg-acento-botones-a5.mb-5.justify-content-center
       .col-sm-6.col-lg-3.d-flex.align-items-center
@@ -117,30 +121,30 @@
                 th Tamaño de almohadas
             tbody
               tr
-                td Sencilla (#[em Twin]).
+                td Sencilla (#[em Twin])
                 td 90 - 100 x 190
                 td 180 x 280
-                td Estándar (50 x 70 cm).
+                td Estándar (50 x 70 cm)
               tr
-                td Semidoble.
+                td Semidoble
                 td 120 x 190
                 td 200 x 280
-                td Estándar (50 x 70 cm).
+                td Estándar (50 x 70 cm)
               tr
-                td Doble (full).
+                td Doble (<em>full</em>)
                 td 140 x 190
                 td 220 x 280
-                td Estándar (50 x 75 cm).
+                td Estándar (50 x 75 cm)
               tr
-                td Queen size.
+                td #[em Queen size]
                 td 160 x 190 / 200
                 td 240 x 290
-                td Queen (50 x 80 cm).
+                td #[em Queen] (50 x 80 cm)
               tr
-                td King size
+                td #[em King size]
                 td 200 x 200
                 td 280 x 290
-                td King (50 x 90 cm).
+                td #[em King] (50 x 90 cm)
 
     .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Componentes adicionales y sus medidas
@@ -155,7 +159,7 @@
             .col-6
               img.w-90.mb-4(src='@/assets/curso/tema6/4.svg' alt='')
           h5.text-center Protector de colchón: 
-          p.text-center.mb-4 Debe ser de la medida exacta del colchón (ej. 160 x 190 para Queen) y contar con un faldón elástico de al menos 30 cm para abrazar toda la estructura.
+          p.text-center.mb-4 Debe ser de la medida exacta del colchón (ej. 160 x 190 para #[em Queen]) y contar con un faldón elástico de al menos 30 cm para abrazar toda la estructura.
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
@@ -169,7 +173,7 @@
           .row.justify-content-center.mb-3
             .col-6
               img.w-90.mb-4(src='@/assets/curso/tema6/6.svg' alt='')
-          h5.text-center El Embozo (doblado superior): 
+          h5.text-center El embozo (doblado superior): 
           p.text-center.mb-4 Independientemente del tamaño, el estándar de hotelería dicta que el embozo debe tener un ancho de 15 a 20 cm, permitiendo que luzca la marca o el diseño de la sábana encimera.
       
 </template>

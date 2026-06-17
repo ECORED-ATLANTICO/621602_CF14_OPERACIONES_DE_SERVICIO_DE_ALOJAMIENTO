@@ -23,8 +23,9 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Tipologías y características de las habitaciones
 
-    p Las tipologías de habitaciones corresponden a la clasificación de los espacios de alojamiento según su capacidad, distribución, nivel de confort, servicios ofrecidos y segmento de mercado al que están dirigidos. Esta clasificación permite a los establecimientos hoteleros organizar su oferta de hospedaje de acuerdo con las necesidades y expectativas de los huéspedes, facilitando la gestión operativa, comercial y administrativa del servicio de alojamiento.
-    p.mb-4.mb-lg-5 Clasificación de habitaciones por acomodación y servicio
+    p.mb-4.mb-lg-5 Las tipologías de habitaciones corresponden a la clasificación de los espacios de alojamiento según su capacidad, distribución, nivel de confort, servicios ofrecidos y segmento de mercado al que están dirigidos. Esta clasificación permite a los establecimientos hoteleros organizar su oferta de hospedaje de acuerdo con las necesidades y expectativas de los huéspedes, facilitando la gestión operativa, comercial y administrativa del servicio de alojamiento.
+    
+    h4.mb-4.mb-lg-5 Clasificación de habitaciones por acomodación y servicio
 
     .row.justify-content-center.align-items-center
       .col-sm-8.col-lg-4
@@ -71,7 +72,7 @@
     separador
     
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2 Estados de la habitación (status)
+      h2 2.2 Estados de la habitación (<em>status</em>)
 
     .row.g-0.rounded-4.bg-acento-contenido-a5.mb-5.justify-content-center
       .col-sm-6.col-lg-3.d-flex.align-items-center
@@ -90,7 +91,7 @@
         p.text-center.mb-0 Habitación donde se encuentra alojada una persona usuaria y sus pertenencias.
       .tarjeta.bg-img.bg-img--3.p-4.py-5
         h4.text-center Sucia (salida/#[em check-out])
-        p.text-center.mb-0 Habitación donde se encuentra alojada una persona usuaria y sus pertenencias.
+        p.text-center.mb-0 Habitación que ha sido desocupada y requiere el proceso integral de desinfección y alistamiento.
       .tarjeta.bg-img.bg-img--3.p-4.py-5
         h4.text-center En mantenimiento (bloqueada)
         p.text-center.mb-0 Unidad que presenta averías técnicas y no puede ser comercializada hasta su reparación.

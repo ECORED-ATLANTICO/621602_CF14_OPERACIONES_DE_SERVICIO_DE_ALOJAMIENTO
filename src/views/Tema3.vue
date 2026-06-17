@@ -102,32 +102,32 @@
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 1.
-      span Clasificación de los recursos turísticos
+      span Frecuencia y tipos de limpieza
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
         caption Nota. SENA, (2024).
         thead
           tr(style="background-color: #F0F6F9")
-            th Categoría
-            th(colspan="2") Subcategoría
-            th Elementos
+            th Tipo de rutina
+            th(colspan="2") Descripción técnica
+            th Frecuencia
         tbody
           tr
-            td Aseo diario (rutina).
-            td(colspan="2") Limpieza superficial, ventilación, arreglo de cama y reposición de amenities en habitaciones ocupadas o disponibles.
-            td Diaria.
+            td Aseo diario (rutina)
+            td(colspan="2") Limpieza superficial, ventilación, arreglo de cama y reposición de #[em amenities] en habitaciones ocupadas o disponibles.
+            td Diaria
           tr
-            td Aseo general (salida).
-            td(colspan="2") Limpieza profunda tras el check-out; incluye desinfección integral del baño y cambio total de lencería.
-            td Según ocupación.
+            td Aseo general (salida)
+            td(colspan="2") Limpieza profunda tras el #[em check-out]; incluye desinfección integral del baño y cambio total de lencería.
+            td Según ocupación
           tr
-            td Aseo a fondo (#[em deep cleaning]).
+            td Aseo a fondo (#[em deep cleaning])
             td(colspan="2") Limpieza detallada que incluye movimiento de mobiliario pesado, lavado de cortinas y limpieza de techos.
-            td Semanal / Quincenal.
+            td Semanal / Quincenal
           tr
-            td Aseo detallado (mantenimiento).
+            td Aseo detallado (mantenimiento)
             td(colspan="2") Intervención en puntos específicos: limpieza de rieles de ventanas, pulido de metales y tratamiento de pisos.
-            td Mensual.
+            td Mensual
 
     .p-4.bg-secundario-s10.rounded-4
       p.mb-0 El alistamiento de la unidad de descanso es un proceso técnico que presenta variaciones significativas según la ubicación geográfica, el clima y los estándares corporativos del establecimiento de alojamiento. Comprender estas diferencias permite al personal de alojamiento estandarizar la calidad y adaptarse a las expectativas de diversas personas usuarias internacionales.
@@ -163,7 +163,7 @@
               p.mb-0 En piezas de tamaño completo, el textil se remete bajo el colchón, prestando especial atención a que las esquinas queden técnicamente definidas.
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-11
-              h4 AVariaciones de protección
+              h4 Variaciones de protección
               p.mb-0 En casos donde se utiliza un muletón parcial (un tercio de la cama), este se asegura lateralmente manteniendo la misma exigencia de tensión y ausencia de arrugas.
 
     separador
@@ -181,27 +181,27 @@
         caption Nota. SENA, (2024).
         thead
           tr(style="background-color: #F0F6F9")
-            th(style="width: 200px") Categoría
-            th(colspan="2") Subcategoría
-            th(colspan="2") Elementos
+            th(style="width: 200px") Fase del proceso
+            th(colspan="2") Acción técnica requerida
+            th(colspan="2") Estándar de calidad
         tbody
           tr
-            td(style="width: 200px") Acondicionamiento.
-            td(colspan="2") Disposición de somier y protector de base.
-            td(colspan="2") Alineación perfecta con la estructura de la cama.
+            td(style="width: 200px") Acondicionamiento
+            td(colspan="2") Disposición de somier y protector de base
+            td(colspan="2") Alineación perfecta con la estructura de la cama
           tr
-            td(style="width: 200px") Protección.
-            td(colspan="2") Colocación del muletón o funda de colchón.
-            td(colspan="2") Superficie lisa, sin presencia de partículas o humedad.
+            td(style="width: 200px") Protección
+            td(colspan="2") Colocación del muletón o funda de colchón
+            td(colspan="2") Superficie lisa, sin presencia de partículas o humedad
           tr
-            td(style="width: 200px") Fijación.
-            td(colspan="2") Remetido y ajuste de esquinas.
-            td(colspan="2") Textil tirante; esquinas con ángulo técnico para evitar desplazamientos.
+            td(style="width: 200px") Fijación
+            td(colspan="2") Remetido y ajuste de esquinas
+            td(colspan="2") Textil tirante; esquinas con ángulo técnico para evitar desplazamientos
 
     .row.justify-content-center.align-items-center
       .col-xl-10
         .p-4.bg-secundario-s5.rounded-4.mb-5
-          p.mb-0.text-center Procedimiento para la preparación del colchón
+          p.mb-0.text-center #[strong Procedimiento para la preparación del colchón]
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
@@ -246,7 +246,7 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/12.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
         p Este elemento cumple funciones estéticas, de protección y presentación, contribuyendo a mantener la lencería en condiciones adecuadas de higiene y a proyectar una imagen organizada y confortable de la habitación. Su correcta instalación debe realizarse siguiendo criterios de simetría, tensión, alineación y presentación establecidos por los estándares del establecimiento de hospedaje.
-        p.mb-0 Una vez que la cama está hecha, se procede a colocar la colcha de día. Esta debe extenderse sobre el colchón, asegurando que la tela cubra completamente el somier y el protector de base. La colcha debe estar centrada y ajustada de manera uniforme, sin pliegues ni arrugas, para garantizar un aspecto limpio y profesional.
+        p.mb-0 Una vez que la cama está hecha, se procede a colocar la colcha de día.
 
     SlyderF(columnas="col-lg-6 col-xl-4 mb-5")
       .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
@@ -311,7 +311,7 @@
         p.mb-0 Por otro lado, el estándar alemán y nórdico.
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t5").mb-5
-      .row.justify-content-center.align-items-center.z-2(titulo="Estándar Frances")
+      .row.justify-content-center.align-items-center.z-2(titulo="Estándar francés")
         .col-sm-10.col-lg-7.mb-4.mb-lg-0
           p El estándar francés se enfoca en la suavidad y el confort, utilizando plumones sobre el colchón y sábanas bajeras largas que permiten envolver almohadas cilíndricas sin necesidad de fundas adicionales.
           p.mb-1 Las características son:
@@ -325,7 +325,7 @@
         .col-sm-6.col-lg-3
           figure
             img(src='@/assets/curso/tema3/20.png', alt='')
-      .row.justify-content-center.align-items-center.z-2(titulo="Estándar ingles")
+      .row.justify-content-center.align-items-center.z-2(titulo="Estándar inglés")
         .col-sm-10.col-lg-7.mb-4.mb-lg-0
           p El estándar inglés, más complejo y voluminoso, incorpora varias capas como manta, edredón y cojines decorativos, además de una colcha de día que aporta una apariencia robusta.
           p.mb-1 Las características son:
@@ -370,22 +370,39 @@
             th Técnica de sábana bajera
         tbody
           tr
-            td Francés.
-            td Cilíndrica (redonda).
-            td Plumas y plumón suave.
-            td Longitud extra para envolver la almohada.
+            td Francés
+            td Cilíndrica (redonda)
+            td Plumas y plumón suave
+            td Longitud extra para envolver la almohada
           tr
-            td Inglés.
-            td Cilíndrica + cuadrante.
-            td Edredones de gran volumen.
-            td Envuelta en cabecera con capas de abrigo.
+            td Inglés
+            td Cilíndrica + cuadrante
+            td Edredones de gran volumen
+            td Envuelta en cabecera con capas de abrigo
           tr
-            td Alemán / Nórdico.
-            td Tradicional / firme.
-            td Crin de caballo o lana prensada.
-            td Ajuste sobre colchón segmentado y bastidor.
+            td Alemán / Nórdico
+            td Tradicional / firme
+            td Crin de caballo o lana prensada
+            td Ajuste sobre colchón segmentado y bastidor
 
 
+    .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.z-2
+      .col-sm-8.col-lg-5.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema1/42.png", alt="")
+      .col-lg-7.bg-audio.rounded-4
+        .row.align-items-center
+          .col-sm-4
+            figure.pt-3
+              img.w-155.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="alt")
+          .col-sm-8.col-lg-8
+            h5 ¿Sabías qué?
+            p Lo invitamos a escuchar el siguiente pódcast:
+            TarjetaAudio.color-terciario.mb-3(
+              texto="“Charlas que venden” Episodio: Definir algunos principios básicos "
+              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
 
 
 

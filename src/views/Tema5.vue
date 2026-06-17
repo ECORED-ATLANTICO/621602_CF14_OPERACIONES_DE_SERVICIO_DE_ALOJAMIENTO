@@ -43,7 +43,7 @@
             .col-6
               img.w-125.mb-4(src='@/assets/curso/tema5/4.svg' alt='')
           h5.text-center Acción mecánica
-          p.text-center.mb-4 Se refiere a la temperatura de la solución. El agua tibia ayuda a disolver grasas, mientras que el agua fría se prefiere para ciertos desinfectantes volátiles
+          p.text-center.mb-4 Es la acción física de frotado o fricción aplicada mediante paños, fibras o maquinaria para remover la suciedad adherida.
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-sm-0
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
@@ -86,27 +86,27 @@
             th(colspan="2") Criterio de control
         tbody
           tr
-            td 1. Inspección.
+            td 1. Inspección
             td(colspan="2") Limpiar el carro con paño húmedo y verificar que las ruedas giren libremente.
             td(colspan="2") El carro debe estar libre de polvo y residuos del turno anterior.
-          tr
-            td 2. Lencería (bajos).
+          tr  
+            td 2. Lencería (bajos)
             td(colspan="2") Colocar sábanas, fundas y protectores en los estantes inferiores.
             td(colspan="2") No sobrecargar; la lencería debe estar apilada por tamaños.
           tr
-            td 3. Suministros (medios).
+            td 3. Suministros (medios)
             td(colspan="2") Vigilancia y reporte de conductas sospechosas relacionadas con ESCNNA.
             td(colspan="2") Número de reportes o verificaciones de protocolo.
           tr
-            td 4. Amenities (superiores).
+            td 4. Amenities (superiores)
             td(colspan="2") Organizar jabones, champú, kits y papelería en la bandeja superior.
             td(colspan="2") Usar organizadores (cestas) para evitar que se mezclen.
           tr
-            td 5. Químicos (lateral).
+            td 5. Químicos (lateral)
             td(colspan="2") Colocar atomizadores etiquetados en el porta útiles lateral.
             td(colspan="2") Los químicos nunca deben estar cerca de la lencería limpia.
           tr
-            td 6. Bolsas de residuos.
+            td 6. Bolsas de residuos
             td(colspan="2") Colocar la bolsa de lencería sucia en un extremo y la de basura en el otro.
             td(colspan="2") Verificar que las bolsas no tengan roturas y estén bien sujetas.
 
