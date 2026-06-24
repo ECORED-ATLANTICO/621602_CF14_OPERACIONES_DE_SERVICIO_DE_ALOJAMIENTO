@@ -50,8 +50,7 @@
               h4 Inspección del protector
               p.mb-0 Verificar que el protector de colchón esté limpio y seco. Si hay manchas, debe cambiarse de inmediato.
 
-    .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
-      h5.mb-0 Secuencia Técnica del tendido
+
     separador
     
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")

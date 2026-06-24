@@ -216,7 +216,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             h4 Coordinación
-            p.mb-0 Comunicación constante con el departamento de Recepción para la actualización de estados de habitación y atención de solicitudes.
+            p.mb-0 Comunicación constante con el departamento de recepción para la actualización de estados de habitación y atención de solicitudes.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/29.png', alt='')
@@ -353,10 +353,10 @@
               img.w-155.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="alt")
           .col-sm-8.col-lg-8
             h5 ¿Sabías qué?
-            p Lo invitamos a escuchar el siguiente pódcast:
+            p Lo invitamos a el siguiente pódcast:
             TarjetaAudio.color-terciario.mb-3(
-              texto="“Charlas que venden” Episodio: Definir algunos principios básicos "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              texto="Gestión hotelera- el papel estratégico del departamento de pisos"
+              :audio="require('@/assets/componentes/audios/1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 

@@ -397,10 +397,10 @@
               img.w-155.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="alt")
           .col-sm-8.col-lg-8
             h5 ¿Sabías qué?
-            p Lo invitamos a escuchar el siguiente pódcast:
+            p Lo invitamos a el siguiente pódcast:
             TarjetaAudio.color-terciario.mb-3(
-              texto="“Charlas que venden” Episodio: Definir algunos principios básicos "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              texto="Higiene y hospitalidad- protocolos y técnicas en el área de alojamiento"
+              :audio="require('@/assets/componentes/audios/2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 

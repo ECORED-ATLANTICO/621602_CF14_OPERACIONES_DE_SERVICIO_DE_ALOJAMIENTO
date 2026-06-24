@@ -23,8 +23,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar los conocimientos del aprendiz sobre la gestión operativa del área de habitaciones y zonas comunes, verificando su comprensión de la estructura organizacional, los procedimientos técnicos de limpieza y arreglo, la normativa aplicable, la planeación de actividades, el manejo de suministros y activos, así como los procesos de supervisión y mantenimiento, con el fin de fortalecer las competencias requeridas para la coordinación eficiente del servicio de alojamiento.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
@@ -85,7 +85,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Gerente de alimentos y bebidas..',
+              texto: 'Gerente de alimentos y bebidas.',
               esCorrecta: false,
             },
           ],
@@ -202,7 +202,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Reducir el tiempo de limpieza',
+              texto: 'Reducir el tiempo de limpieza.',
               esCorrecta: false,
             },
             {
@@ -293,7 +293,7 @@ export default {
         {
           id: 9,
           texto:
-            '¿Cuál es una rutina de aseo que se realiza tras el check-out del huésped?',
+            '¿Cuál es una rutina de aseo que se realiza tras el <em>check-out</em> del huésped?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -567,12 +567,12 @@ export default {
             {
               id: 'b',
               texto:
-                'Transportar suministros, lencería y químicos para la limpieza',
+                'Transportar suministros, lencería y químicos para la limpieza.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Guardar documentos administrativos',
+              texto: 'Guardar documentos administrativos.',
               esCorrecta: false,
             },
             {

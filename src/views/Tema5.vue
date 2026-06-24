@@ -50,7 +50,7 @@
             .col-6
               img.w-125.mb-4(src='@/assets/curso/tema5/5.svg' alt='')
           h5.text-center Temperatura
-          p.text-center.mb-4 Se refiere a la temperatura de la solución. El agua tibia ayuda a disolver grasas, mientras que el agua fría se prefiere para ciertos desinfectantes volátiles
+          p.text-center.mb-4 Se refiere a la temperatura de la solución. El agua tibia ayuda a disolver grasas, mientras que el agua fría se prefiere para ciertos desinfectantes volátiles.
       .col-sm-6.col-lg-5.col-xl-3
         .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
           .row.justify-content-center.mb-3
@@ -98,7 +98,7 @@
             td(colspan="2") Vigilancia y reporte de conductas sospechosas relacionadas con ESCNNA.
             td(colspan="2") Número de reportes o verificaciones de protocolo.
           tr
-            td 4. Amenities (superiores)
+            td 4. <em>Amenities</em> (superiores)
             td(colspan="2") Organizar jabones, champú, kits y papelería en la bandeja superior.
             td(colspan="2") Usar organizadores (cestas) para evitar que se mezclen.
           tr

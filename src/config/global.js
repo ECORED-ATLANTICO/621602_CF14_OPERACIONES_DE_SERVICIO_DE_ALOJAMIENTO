@@ -174,8 +174,13 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Especificaciones técnicas de la lencería de cama',
+            titulo: 'Paso a paso del armado técnico',
             hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Especificaciones técnicas de la lencería de cama',
+            hash: 't_6_3',
           },
         ],
       },
@@ -211,7 +216,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF14_621602_DU.zip',
+        download: 'downloads/621602_CF14_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -365,7 +370,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional 06. Responsable del Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
