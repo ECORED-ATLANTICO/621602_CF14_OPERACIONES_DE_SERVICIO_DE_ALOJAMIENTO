@@ -124,7 +124,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Normativa de sostenibilidad: la norma NTC 6503',
+            titulo: 'Normativa de sostenibilidad: la norma NTC 6503: 2024',
             hash: 't_4_1',
           },
           {
@@ -386,7 +386,7 @@ export default {
         {
           nombre: 'Celmira Pereira Franco',
           cargo: 'Experto temático',
-          centro: 'Centro Agroturístico SENA - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Jair Enrique Coll Gallardo',

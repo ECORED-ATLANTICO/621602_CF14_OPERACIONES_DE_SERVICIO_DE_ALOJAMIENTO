@@ -17,15 +17,15 @@
     separador
     
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1 Normativa de sostenibilidad: la norma NTC 6503
+      h2 4.1 Normativa de sostenibilidad: la norma NTC 6503: 2024
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-10.col-lg-5
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p En la actualidad, la coordinación de servicios de alojamiento debe regirse por la Norma Técnica Colombiana NTC 6503, la cual unifica los criterios de sostenibilidad para el sector. Esta norma no solo busca la eficiencia operativa, sino que posiciona al establecimiento dentro de los estándares de competitividad exigidos por el Ministerio de Comercio, Industria y Turismo.
-        p.mb-0 La implementación de la NTC 6503 en el área de alojamiento se articula en tres dimensiones estratégicas que el coordinador debe supervisar:
+        p En la actualidad, la coordinación de servicios de alojamiento debe regirse por la Norma Técnica Colombiana NTC 6503: 2024, la cual unifica los criterios de sostenibilidad para el sector. Esta norma no solo busca la eficiencia operativa, sino que posiciona al establecimiento dentro de los estándares de competitividad exigidos por el Ministerio de Comercio, Industria y Turismo. 
+        p.mb-0 La implementación de la NTC 6503: 2024 en el área de alojamiento se articula en tres dimensiones estratégicas que el coordinador debe supervisar: 
 
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Dimensión ambiental
@@ -38,27 +38,27 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema4/3.png", alt="")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.px-0
             h4.mb-3.text-center Uso eficiente del agua y energía
-            p.mb-0.text-center Supervisión de protocolos de lavado de lencería y uso de iluminación de bajo consumo en las unidades de alojamiento.
+            p.mb-0.text-center.px-4 Supervisión de protocolos de lavado de lencería y uso de iluminación de bajo consumo en las unidades de alojamiento.
     
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema4/4.png", alt="")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.px-0
             h4.mb-3.text-center Gestión de residuos
-            p.mb-0.text-center Aplicación estricta del código de colores y reducción del uso de plásticos de un solo uso en las amenidades (#[em amenities]).
+            p.mb-0.text-center.px-4 Aplicación estricta del código de colores y reducción del uso de plásticos de un solo uso en las amenidades (#[em amenities]).
     
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema4/5.png", alt="")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.px-0
             h4.mb-3.text-center Control de emisiones y vertimientos
-            p.mb-0.text-center Uso de productos de limpieza biodegradables para proteger las fuentes hídricas.
+            p.mb-0.text-center.px-4 Uso de productos de limpieza biodegradables para proteger las fuentes hídricas.
 
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Dimensión sociocultural
@@ -98,10 +98,10 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/9.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
         .p-4.bg-acento-contenido-a5.rounded-4.mb-3
-          h5 Contratación local: 
+          h5 Contratación local
           p.mb-0 Priorización de proveedores de la región para el abastecimiento de insumos de camarería.
         .p-4.bg-acento-contenido-a5.rounded-4.mb-3
-          h5 Calidad en el servicio:
+          h5 Calidad en el servicio
           p.mb-0 Mejora continua de los procesos de alojamiento para asegurar la satisfacción y fidelización de la persona usuaria.
       
 
@@ -119,16 +119,16 @@
         tbody
           tr
             td Ambiental
-            td Control de recambio de lencería bajo criterios de ahorro
-            td Registros de consumo de agua y energía por habitación
+            td Control de recambio de lencería bajo criterios de ahorro.
+            td Registros de consumo de agua y energía por habitación.
           tr
             td Sociocultural
-            td Capacitación del personal en protección del patrimonio
-            td Certificados de formación del talento humano
+            td Capacitación del personal en protección del patrimonio.
+            td Certificados de formación del talento humano.
           tr
             td Económico
-            td Evaluación de proveedores de insumos eco-amigables
-            td Fichas técnicas de productos de limpieza sostenibles
+            td Evaluación de proveedores de insumos eco-amigables.
+            td Fichas técnicas de productos de limpieza sostenibles.
 
     .p-4.bg-acento-contenido-a5.rounded-4.mb-5
       p.mb-0 La coordinación del servicio de alojamiento debe traducir los requisitos de la NTC 6503 en protocolos operativos que el personal de pisos (camareras y auxiliares) pueda ejecutar. Esta norma se divide en criterios de cumplimiento que impactan directamente la unidad de alojamiento.
@@ -339,7 +339,6 @@
       .py-4.py-md-5(titulo="Protocolo de 'no sacudido'" :icono="require('@/assets/curso/tema4/19.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Protocolo de "no sacudido"
             p.mb-0 Al retirar la lencería de la cama, está prohibido sacudirla, ya que esto dispersa ácaros y patógenos en el aire. La ropa debe enrollarse con la cara sucia hacia adentro y depositarse de inmediato en la bolsa del carro.
           .col-sm-8.col-lg-3
             figure
@@ -347,7 +346,6 @@
       .py-4.py-md-5(titulo="Manejo de fluidos corporales (sangre, orina, vómito)" :icono="require('@/assets/curso/tema4/20.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Manejo de fluidos corporales (sangre, orina, vómito)
             p.mb-0 Ante la presencia de fluidos, se debe aplicar el protocolo de "derrame biológico": delimitar el área, aplicar un agente absorbente y desinfectar con hipoclorito de sodio en la concentración técnica requerida (habitualmente 5000 ppm para áreas críticas).
           .col-sm-8.col-lg-3
             figure
@@ -355,7 +353,6 @@
       .py-4.py-md-5(titulo="Gestión de elementos cortopunzantes" :icono="require('@/assets/curso/tema4/21.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Gestión de elementos cortopunzantes
             p.mb-0 En caso de encontrar jeringas o vidrios rotos, estos nunca deben manipularse con la mano directamente, ni depositarse en bolsas plásticas. Se deben usar pinzas y un contenedor rígido (guardián) de color rojo.
           .col-sm-8.col-lg-3
             figure

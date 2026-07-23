@@ -42,27 +42,27 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema1/4.png", alt="")
-          .crd_hover_txt--body.bg-acento-contenido-a5
+          .crd_hover_txt--body.bg-acento-contenido-a5.px-0
             h4.mb-3.text-center Comunicación descendente
-            p.mb-0.text-center Instrucciones técnicas, cambios en protocolos de bioseguridad y asignación de turnos.
+            p.mb-0.text-center.px-3 Instrucciones técnicas, cambios en protocolos de bioseguridad y asignación de turnos.
     
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema1/5.png", alt="")
-          .crd_hover_txt--body.bg-acento-contenido-a5
+          .crd_hover_txt--body.bg-acento-contenido-a5.px-0
             h4.mb-3.text-center Comunicación ascendente
-            p.mb-0.text-center Reporte de averías, novedades en el inventario o requerimientos especiales de las personas usuarias.
+            p.mb-0.text-center.px-3 Reporte de averías, novedades en el inventario o requerimientos especiales de las personas usuarias.
     
       .col-xl-4.col-lg-6.col-md-9.col-11
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema1/6.png", alt="")
-          .crd_hover_txt--body.bg-acento-contenido-a5
+          .crd_hover_txt--body.bg-acento-contenido-a5.px-0
             h4.mb-3.text-center Comunicación horizontal
-            p.mb-0.text-center Coordinación directa con el departamento de recepción para la gestión de estados de habitación (limpia, sucia, en mantenimiento) y con mantenimiento para reparaciones preventivas y correctivas.
+            p.mb-0.text-center.px-3 Coordinación directa con el departamento de recepción para la gestión de estados de habitación (limpia, sucia, en mantenimiento) y con mantenimiento para reparaciones preventivas y correctivas.
 
     .p-4.bg-secundario-s5.rounded-4
       p.mb-0 De acuerdo con la estructura organizacional del departamento de pisos, las responsabilidades se distribuyen en tres niveles de mando que aseguran la trazabilidad del servicio y el cumplimiento de los procedimientos técnicos (García & López, 2023).
@@ -96,7 +96,7 @@
             img(src="@/assets/curso/tema1/9.png", alt="", data-aos="fade-down-left")
           .p-4.bg-secundario-s5
             h5 Asistencia de ama de llaves
-            p.mb-0 Ejerce como el enlace técnico-administrativo. Su función principal es apoyar en la programación de turnos, control de inventarios de lencería y suministros, y asegurar que el flujo de comunicación entre la dirección y los mandos medios sea eficiente.
+            p.mb-0 Ejerce como el enlace técnico-administrativo. Su función principal es apoyar en la programación de turnos, el control de inventarios de lencería y suministros, y asegurar que el flujo de comunicación entre la dirección y los mandos medios sea eficiente.
 
     separador
     
@@ -116,7 +116,6 @@
       .py-4.py-md-5(titulo="Supervisión de ama de llaves" :icono="require('@/assets/curso/tema1/11.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Supervisión de ama de llaves
             p.mb-0 Responsable de inspeccionar el alistamiento de las habitaciones, verificar el cumplimiento de los protocolos de limpieza y asegurar que las camarerías cuenten con los insumos necesarios para su labor.
           .col-sm-8.col-lg-4
             figure
@@ -124,7 +123,6 @@
       .py-4.py-md-5(titulo="Jefatura de lavandería" :icono="require('@/assets/curso/tema1/12.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Jefatura de lavandería
             p.mb-0 Encargada de coordinar el proceso de lavado, planchado y mantenimiento de la lencería del hotel y la mantelería. Debe garantizar la disponibilidad constante de blancos en condiciones óptimas de higiene.
           .col-sm-8.col-lg-4
             figure
@@ -132,8 +130,7 @@
       .py-4.py-md-5(titulo="Supervisión de áreas públicas" :icono="require('@/assets/curso/tema1/13.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Supervisión de áreas públicas
-            p.mb-0 Coordina y verifica la limpieza y desinfección de las zonas sociales, (#[em lobby], pasillos), asegurando que los estándares estéticos se mantengan para todos los que transitan por el establecimiento.
+            p.mb-0 Coordina y verifica la limpieza y desinfección de las zonas sociales (#[em lobby], pasillos), asegurando que los estándares estéticos se mantengan para todos los que transitan por el establecimiento.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/16.png', alt='')
@@ -189,7 +186,7 @@
         figure
           img(src="@/assets/curso/tema1/22.png", alt="" data-aos="zoom-in-down")
       .col-lg-8.order-0.order-lg-1.mb-4.mb-lg-0
-        p El ama de llaves es el talento humano designado por la dirección para liderar el departamento de pisos. Su gestión es transversal a la operación del hotel, pues garantiza la calidad estética y de higiene en las habitaciones, la conservación de los activos (mobiliario) y la eficiencia en el uso de los recursos del establecimiento.
+        p El ama de llaves es la persona designada por la dirección para liderar el departamento de pisos. Su gestión es transversal a la operación del hotel, pues garantiza la calidad estética y de higiene en las habitaciones, la conservación de los activos (mobiliario) y la eficiencia en el uso de los recursos del establecimiento.
         .p-4.rounded-4.bg-secundario-s5.mb-3
           p.mb-0 De acuerdo con las tendencias actuales en hospitalidad, este rol requiere una visión sistémica de la operación, donde la economía de lencería y el control de suministros impactan directamente en la rentabilidad (García & López, 2023). Asimismo, es la persona responsable de brindar la atención protocolaria necesaria ante situaciones de salud o requerimientos especiales de las personas usuarias.
         p La gestión del ama de llaves se divide en procesos de organización, supervisión y coordinación interdepartamental.
@@ -199,7 +196,6 @@
       .py-4.py-md-5(titulo="Talento humano" :icono="require('@/assets/curso/tema1/23.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Talento humano
             p.mb-0 Organización y distribución equitativa de cargas laborales; programación de turnos, días de descanso y periodos vacacionales del personal a cargo.
           .col-sm-8.col-lg-4
             figure
@@ -207,7 +203,6 @@
       .py-4.py-md-5(titulo="Control de calidad" :icono="require('@/assets/curso/tema1/24.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Control de calidad
             p.mb-0 Supervisión técnica y minuciosa de habitaciones; reporte y seguimiento de averías en las áreas de pisos; gestión de bloqueos y cambios de habitación por razones técnicas o de servicio.
           .col-sm-8.col-lg-4
             figure
@@ -215,15 +210,13 @@
       .py-4.py-md-5(titulo="Coordinación" :icono="require('@/assets/curso/tema1/25.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Coordinación
-            p.mb-0 Comunicación constante con el departamento de recepción para la actualización de estados de habitación y atención de solicitudes.
+            p.mb-0 Comunicación constante con el departamento de Recepción para la actualización de estados de habitación y atención de solicitudes.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/29.png', alt='')
       .py-4.py-md-5(titulo="Ambientación" :icono="require('@/assets/curso/tema1/26.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Ambientación
             p.mb-0 Supervisión de la decoración y estética en habitaciones, recepción y áreas comunes para mantener la identidad visual del hotel.
           .col-sm-8.col-lg-4
             figure
@@ -323,7 +316,7 @@
           .tarjeta.bg-img.bg-img--7.h-100
             .ps-1.py-4.pe-4
               h5 Sistemas eléctricos y conectividad
-              p.mb-0 Comprobación de iluminación (bombillos), cables de comunicación y aparatos eléctricos.
+              p.mb-0 Comprobación de iluminación (bombillas), cables de comunicación y aparatos eléctricos.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
           .tarjeta-avatar-b__img.align-items-baseline.h-100
@@ -355,7 +348,7 @@
             h5 ¿Sabías qué?
             p Lo invitamos a el siguiente pódcast:
             TarjetaAudio.color-terciario.mb-3(
-              texto="Gestión hotelera- el papel estratégico del departamento de pisos"
+              texto="Gestión hotelera: el papel estratégico del departamento de pisos"
               :audio="require('@/assets/componentes/audios/1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )

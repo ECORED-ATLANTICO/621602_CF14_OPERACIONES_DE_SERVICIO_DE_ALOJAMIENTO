@@ -105,7 +105,7 @@
       span Frecuencia y tipos de limpieza
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
-        caption Nota. SENA, (2024).
+        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #F0F6F9")
             th Tipo de rutina
@@ -187,16 +187,16 @@
         tbody
           tr
             td(style="width: 200px") Acondicionamiento
-            td(colspan="2") Disposición de somier y protector de base
-            td(colspan="2") Alineación perfecta con la estructura de la cama
+            td(colspan="2") Disposición de somier y protector de base.
+            td(colspan="2") Alineación perfecta con la estructura de la cama.
           tr
             td(style="width: 200px") Protección
-            td(colspan="2") Colocación del muletón o funda de colchón
-            td(colspan="2") Superficie lisa, sin presencia de partículas o humedad
+            td(colspan="2") Colocación del muletón o funda de colchón.
+            td(colspan="2") Superficie lisa, sin presencia de partículas o humedad.
           tr
             td(style="width: 200px") Fijación
-            td(colspan="2") Remetido y ajuste de esquinas
-            td(colspan="2") Textil tirante; esquinas con ángulo técnico para evitar desplazamientos
+            td(colspan="2") Remetido y ajuste de esquinas.
+            td(colspan="2") Textil tirante; esquinas con ángulo técnico para evitar desplazamientos.
 
     .row.justify-content-center.align-items-center
       .col-xl-10
@@ -248,32 +248,32 @@
         p Este elemento cumple funciones estéticas, de protección y presentación, contribuyendo a mantener la lencería en condiciones adecuadas de higiene y a proyectar una imagen organizada y confortable de la habitación. Su correcta instalación debe realizarse siguiendo criterios de simetría, tensión, alineación y presentación establecidos por los estándares del establecimiento de hospedaje.
         p.mb-0 Una vez que la cama está hecha, se procede a colocar la colcha de día.
 
-    SlyderF(columnas="col-lg-6 col-xl-4 mb-5")
-      .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
-        .row.justify-content-center.mb-3
-          .col-6
-            img.w-90.mb-4(src='@/assets/curso/tema3/13.svg' alt='')
-        p.text-center La colcha se coloca empezando por los pies de la cama, asegurándose de encajar correctamente las esquinas.
-      .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
-        .row.justify-content-center.mb-3
-          .col-6
-            img.w-90.mb-4(src='@/assets/curso/tema3/14.svg' alt='')
-        p.text-center Luego se estira cuidadosamente hacia la cabecera, procurando que quede lisa y bien alineada.
-      .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
-        .row.justify-content-center.mb-3
-          .col-6
-            img.w-90.mb-4(src='@/assets/curso/tema3/15.svg' alt='')
-        p.text-center En la parte superior, del lado de la cabecera, se deja una sección de la colcha doblada, formando un embozo.
-      .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
-        .row.justify-content-center.mb-3
-          .col-6
-            img.w-90.mb-4(src='@/assets/curso/tema3/16.svg' alt='')
-        p.text-center Este embozo será el espacio donde se colocará la almohada.
-      .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
-        .row.justify-content-center.mb-3
-          .col-6
-            img.w-90.mb-4(src='@/assets/curso/tema3/17.svg' alt='')
-        p.text-center Finalmente, se coloca la almohada sobre esta parte doblada y se vuelve la colcha junto con el embozo, de manera que la almohada quede cubierta por la colcha de día.
+    //- SlyderF(columnas="col-lg-6 col-xl-4 mb-5")
+    //-   .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
+    //-     .row.justify-content-center.mb-3
+    //-       .col-6
+    //-         img.w-90.mb-4(src='@/assets/curso/tema3/13.svg' alt='')
+    //-     p.text-center La colcha se coloca empezando por los pies de la cama, asegurándose de encajar correctamente las esquinas.
+    //-   .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
+    //-     .row.justify-content-center.mb-3
+    //-       .col-6
+    //-         img.w-90.mb-4(src='@/assets/curso/tema3/14.svg' alt='')
+    //-     p.text-center Luego se estira cuidadosamente hacia la cabecera, procurando que quede lisa y bien alineada.
+    //-   .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
+    //-     .row.justify-content-center.mb-3
+    //-       .col-6
+    //-         img.w-90.mb-4(src='@/assets/curso/tema3/15.svg' alt='')
+    //-     p.text-center En la parte superior, del lado de la cabecera, se deja una sección de la colcha doblada, formando un embozo.
+    //-   .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
+    //-     .row.justify-content-center.mb-3
+    //-       .col-6
+    //-         img.w-90.mb-4(src='@/assets/curso/tema3/16.svg' alt='')
+    //-     p.text-center Sobre este embozo se colocará la almohada.
+    //-   .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
+    //-     .row.justify-content-center.mb-3
+    //-       .col-6
+    //-         img.w-90.mb-4(src='@/assets/curso/tema3/17.svg' alt='')
+    //-     p.text-center Finalmente, se coloca la almohada sobre esta parte doblada y se vuelve la colcha junto con el embozo, de manera que la almohada quede cubierta por la colcha de día.
     
     .row.justify-content-center.align-items-center
       .col-sm-10.col-lg-5
@@ -372,18 +372,18 @@
           tr
             td Francés
             td Cilíndrica (redonda)
-            td Plumas y plumón suave
-            td Longitud extra para envolver la almohada
+            td Plumas y plumón suave.
+            td Longitud extra para envolver la almohada.
           tr
             td Inglés
             td Cilíndrica + cuadrante
-            td Edredones de gran volumen
-            td Envuelta en cabecera con capas de abrigo
+            td Edredones de gran volumen.
+            td Envuelta en cabecera con capas de abrigo.
           tr
             td Alemán / Nórdico
             td Tradicional / firme
-            td Crin de caballo o lana prensada
-            td Ajuste sobre colchón segmentado y bastidor
+            td Crin de caballo o lana prensada. 
+            td Ajuste sobre colchón segmentado y bastidor.
 
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.z-2
@@ -399,7 +399,7 @@
             h5 ¿Sabías qué?
             p Lo invitamos a el siguiente pódcast:
             TarjetaAudio.color-terciario.mb-3(
-              texto="Higiene y hospitalidad- protocolos y técnicas en el área de alojamiento"
+              texto="Higiene y hospitalidad: protocolos y técnicas en el área de alojamiento"
               :audio="require('@/assets/componentes/audios/2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )

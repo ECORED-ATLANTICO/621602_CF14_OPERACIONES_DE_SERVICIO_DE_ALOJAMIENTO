@@ -14,7 +14,7 @@
       .row.justify-content-center.z-2.mb-3
         .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
           div.banner-text.shadow
-            p.mb-0 El tendido de precisión es un procedimiento técnico utilizado en los servicios de alojamiento para garantizar que la cama presente condiciones óptimas de higiene, comodidad, estética y presentación. este proceso busca estandarizar el arreglo de la unidad habitacional, mejorando la experiencia del huésped y fortaleciendo la calidad del servicio. El objetivo es lograr una cama con tensión perfecta, simetría absoluta y condiciones de higiene verificables. El estándar de una cama bien tendida es que no presente arrugas y que la lencería esté alineada milimétricamente con el borde superior del colchón.
+            p.mb-0 El tendido de precisión es un procedimiento técnico utilizado en los servicios de alojamiento para garantizar que la cama presente condiciones óptimas de higiene, comodidad, estética y presentación. Este proceso busca estandarizar el arreglo de la unidad habitacional, mejorando la experiencia del huésped y fortaleciendo la calidad del servicio. El objetivo es lograr una cama con tensión perfecta, simetría absoluta y condiciones de higiene verificables. El estándar de una cama bien tendida es que no presente arrugas y que la lencería esté alineada milimétricamente con el borde superior del colchón.
     
     separador
     
@@ -56,7 +56,7 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.2	Paso a paso del armado técnico
     
-    p.mb-4.mb-lg-5 El paso a paso del armado técnico corresponde a la secuencia organizada de actividades que se realizan para efectuar correctamente el tendido y presentación de la cama en una habitación de alojamiento. Este procedimiento se desarrolla siguiendo estándares técnicos de higiene, orden, ergonomía y calidad, con el propósito de garantizar comodidad, funcionalidad y una adecuada presentación del espacio destinado al huésped.
+    p.mb-4.mb-lg-5 El paso a paso del armado técnico corresponde a la secuencia organizada de actividades que se realizan para efectuar correctamente el tendido y presentación de la cama en una habitación de alojamiento.
     
     .row.justify-content-center.mb-5
       .col-12.col-lg-10.mb-0.col-md-12

@@ -95,8 +95,8 @@
             td(colspan="2") No sobrecargar; la lencería debe estar apilada por tamaños.
           tr
             td 3. Suministros (medios)
-            td(colspan="2") Vigilancia y reporte de conductas sospechosas relacionadas con ESCNNA.
-            td(colspan="2") Número de reportes o verificaciones de protocolo.
+            td(colspan="2") Ubicar toallas de cuerpo, manos y pies en los estantes intermedios. 
+            td(colspan="2") El doblado debe quedar hacia afuera para facilitar el conteo. 
           tr
             td 4. <em>Amenities</em> (superiores)
             td(colspan="2") Organizar jabones, champú, kits y papelería en la bandeja superior.

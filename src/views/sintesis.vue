@@ -5,7 +5,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-6.col-lg-3
         figure
-          img(src="@/assets/curso/sintesis.png", alt="")
+          img.mb-4.mb-lg-0(src="@/assets/curso/sintesis.png", alt="")
       .col-lg-9
         p El componente formativo Coordinar servicios de alojamiento de acuerdo a procedimientos técnicos y técnicas de planeación orienta a los aprendices al desarrollo de competencias relacionadas con la organización, supervisión y control de las actividades operativas del área de habitaciones dentro de establecimientos de alojamiento, mediante la aplicación de procedimientos técnicos, estándares de calidad y lineamientos normativos propios del sector hotelero y turístico.
         p Durante el proceso formativo se abordan temas relacionados con la estructura y funcionamiento del área de habitaciones, la gestión técnica de habitaciones, los procedimientos de higiene, limpieza y alistamiento, las técnicas de tendido y arreglo de cama, y los estándares internacionales aplicados al servicio de alojamiento.

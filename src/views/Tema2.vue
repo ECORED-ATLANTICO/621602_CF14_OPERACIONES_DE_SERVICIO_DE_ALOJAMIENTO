@@ -67,7 +67,7 @@
                 img(src='@/assets/curso/tema2/7.svg' alt='')
             h4.text-center Habitación accesible
             p.text-center.mb-0 Diseñada bajo normas de accesibilidad universal; espacios amplios para giro de silla de ruedas.
-            p.text-center.mb-4 #[strong Estándares de servicio]: equipamiento especializado en baños y sistemas de emergencia visual/sonoro.
+            p.text-center.mb-4 #[strong Estándares de servicio]: equipamiento especializado en baños y sistemas de emergencia visuales y sonoros.
 
     separador
     
@@ -142,15 +142,6 @@
               img.w-125.mb-4(src='@/assets/curso/tema1/35.svg' alt='')
           h5.text-center Papelería y conectividad
           p.text-center.mb-4 Directorio de servicios, información de emergencia, material para notas y accesos a redes de comunicación.
-
-
-
-
-
-
-
-
-
 
 </template>
 
