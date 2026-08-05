@@ -178,7 +178,7 @@
       span Pasos críticos en la preparación del colchón y protección
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-4
       table
-        caption Nota. SENA, (2024).
+        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #F0F6F9")
             th(style="width: 200px") Fase del proceso

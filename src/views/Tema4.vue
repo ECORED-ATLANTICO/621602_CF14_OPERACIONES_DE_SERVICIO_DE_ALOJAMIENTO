@@ -110,7 +110,7 @@
       span Acciones de coordinación según la NTC 6503
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
-        caption Nota. SENA, (2024).
+        caption Nota. SENA, (2026). 
         thead
           tr(style="background-color: #F0F6F9")
             th Eje de sostenibilidad
@@ -138,7 +138,7 @@
       span Matriz de cumplimiento NTC 6503 en habitaciones
     .tabla-a.color-acento-contenido.tabla-a--text-left
       table
-        caption Nota. SENA, (2024).
+        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #F0F6F9")
             th Requisito NTC 6503
